@@ -1,0 +1,120 @@
+.game_name_heading{
+    text-align: center;
+}
+
+.level{
+    text-align: center;
+    
+}
+
+.buttons{
+    margin: 0px auto;
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
+    border-radius: 15px;
+    position: relative;
+}
+
+/* .buttons::before{
+    content: '';
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+.button_container{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    /* padding: 40px; */
+    margin: 0px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.start_button{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: none;
+}
+
+.green_button{
+    /* height: 150px;
+    width: 150px; */
+    background-color: #299e31;
+    margin: 20px 10px 10px 20px;
+    /* position: relative; */
+    border-radius: 15px;
+}
+
+.green_button:hover{
+    background-color: #0d7e15;
+    cursor: grab;
+}
+
+.red_button{
+    /* height: 150px;
+    width: 150px; */
+    background-color: #d32424;
+    margin: 20px 20px 10px 10px;
+    border-radius: 15px;
+}
+
+.red_button:hover{
+    background-color: #a20d0d;
+    cursor: grab;
+}
+
+.yellow_button{
+    /* height: 150px;
+    width: 150px; */
+    background-color: #f5e211;
+    margin: 10px 10px 20px 20px;
+    border-radius: 15px;
+}
+
+.yellow_button:hover{
+    background-color: #baac13;
+    cursor: grab;
+}
+
+.blue_button{
+    /* height: 150px;
+    width: 150px; */
+    background-color: #1061ad;
+    margin: 10px 20px 20px 10px;
+    border-radius: 15px;
+}
+
+.blue_button:hover{
+    background-color: #164e83;
+    cursor: grab;
+}
+
+
+
+.start_button:active{
+    /* background-color: rgb(228, 154, 18); */
+    cursor: pointer;
+    border: 5px solid black;
+    
+}
+
+
+
